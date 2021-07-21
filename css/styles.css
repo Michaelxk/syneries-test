@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 * {
   margin: 0;
   padding: 0; 
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #ebebeb;
 }
 .wrapper {
@@ -21,6 +21,7 @@ body {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  margin-bottom: 30em;
 }
 
 
@@ -89,8 +90,6 @@ body {
 
 
 .includes {
-  grid-row: 7/10;
-  grid-column: 3 /8;
   padding: 2em;
 }
 .includes h2,
@@ -120,11 +119,10 @@ body {
    width: 100%;
    flex-wrap: wrap;
  }
- 
+
  .our-team .card {
    width: 300px;
    margin: 1em;
- 
  } 
  
  .our-team .card_img,
